@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 profile:
   align: right
-  image: avatar.jpeg
+  image: cbb9b90c916446e7c03b438f47ef8011.jpg
   image_circular: true # crops the image to make it circular
   address: 
 news: true  # includes a list of news items
