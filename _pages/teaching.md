@@ -1,58 +1,58 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
-description: Kindle the fire in your heart. 
+title: 过往经历
+description: 永远敢于尝试. 
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
-## Courses
+## 校园实践
 
-I am teaching the following courses:
+### 南京大学新闻传播学院传媒实验班 团支书 
+2021.09-2025.06
+负责对接校团委院团委，组织团日团生活动，负责组织关系发展一切事宜，2023年度定级为五星级团支部，在职期间得到同学们一致好评
 
-- Ph.D Course [Computational Communication Research Workshop](https://github.com/socrateslab/workshop/discussions) (2020-Now)
-- Master Course [Introduction to Computational Communication](https://github.com/chengjun/mybook/discussions) (2018-Now)
-- Undergraduate Course [Computational Social Science](https://github.com/SocratesAcademy/css/) (2020-Now)
-- MOOC Course [Digital Marketing](https://www.icourse163.org/course/20201232-1462060162) (2020-Now)
+### 核真录 数据可视化新闻组责编 
+2023.09-2024.09
+核真录公众号新闻稿的提报、采编、撰写与发表，在职期间参与并组织组员发表原创数据新闻10余篇
 
-{{% callout note %}} My Home Education Course [Explaining the world to kids!](https://github.com/SocratesAcademy/kids/discussions) (2021-Now) {{% /callout %}}
+### 南京大学新传团学联 组织部部长 
+2022.10-2023.10
+策划并组织南京大学新闻传播学院学生会与校团委的内建、内训活动，负责学院学生会与各级团组织的联络沟通工作，以及阶段性人员考核与评优工作的开展
 
-- Undergraduate Course [Data Journalism](https://github.com/data-journalism/data-journalism.github.io/discussions) (2015-2022)
-- Undergraduate Course [Python Programming Basics For Data Science](https://github.com/socratesacademy/datascience/) (2017-2019)
-- FDU Graduate Course [Introduction to Computational Communication](https://github.com/computational-class/cjc/) (2015-2021)
-
-
-## Academic Writing
-
-I am planning to teach a undergraduate course based on Professor Liu Junqiang's book titled The Craft of Writing (《写作是门手艺》). [Github Repo](https://github.com/SocratesAcademy/craft). 
-- Here is the [Jupyter Notebook](https://nbviewer.jupyter.org/github/SocratesAcademy/craft/blob/main/The-Craft-of-Writing.ipynb?flush_cache=true) and [Slides](https://nbviewer.jupyter.org/format/slides/github/SocratesAcademy/craft/blob/main/The-Craft-of-Writing.ipynb#/). 
-- I find the Essay Writing Guide written by Jordan B Peterson is very useful. I convert it into slides and add some annotations. [The Power of Writing: Ten Steps of Essay Writing](https://computational-communication.com/workshop/notebook/Essay%20Writing%20Guide.slides.html#/). 
-- In addition, I highly recommend Howard Becker's book **Writing for Social Scientists** ([Notebook](https://nbviewer.org/github/SocratesAcademy/tricks/blob/main/Writing4SocialScientists.ipynb) & [Slides](https://nbviewer.jupyter.org/format/slides/github/SocratesAcademy/tricks/blob/main/Writing4SocialScientists.ipynb#/)). 
-- Similarly, I like Anthony Miles's introduction to [A Taxonomy of Research Gaps](https://nbviewer.jupyter.org/format/slides/github/SocratesAcademy/craft/blob/main/WritingResearchGaps.ipynb#/).
-- Yet my favorite book on academic writing is Paul J. Silva's **How to Write a Lot: A Practical Guide to Productive Academic Writing** ([Slides](https://socratesacademy.github.io/craft/how-to-write-a-lot-2023.slides.html#/)). 
-
-## Causal Inference
-
-I finished reading the book [「原因と結果」の経済学―――データから真実を見抜く思考法](https://www.amazon.co.jp/%E3%80%8C%E5%8E%9F%E5%9B%A0%E3%81%A8%E7%B5%90%E6%9E%9C%E3%80%8D%E3%81%AE%E7%B5%8C%E6%B8%88%E5%AD%A6%E2%80%95%E2%80%95%E2%80%95%E3%83%87%E3%83%BC%E3%82%BF%E3%81%8B%E3%82%89%E7%9C%9F%E5%AE%9F%E3%82%92%E8%A6%8B%E6%8A%9C%E3%81%8F%E6%80%9D%E8%80%83%E6%B3%95-%E4%B8%AD%E5%AE%A4%E7%89%A7%E5%AD%90/dp/447803947X) and I think it is very useful as the textbook for the class of Causal Inference 101. Check the
-[Slides](https://nbviewer.org/format/slides/github/socrateslab/causal101/blob/main/causal101.ipynb#/) and [Notebook](https://nbviewer.org/github/socrateslab/causal101/blob/main/causal101.ipynb). 
-- I am co-organizing the Causal Inference 101 course with [Dr. Zhihao Ma](https://github.com/xiaoma093), check the [github repo](https://github.com/socrateslab/causal101/discussions) of **Causal Inference 101**.
-- I highly recommend the book titled [**Causal Inference for The Brave and True**](https://matheusfacure.github.io/python-causality-handbook/landing-page.html).
+### 南京大学机关党委办公室 学生助理 
+2023.09-2024.06
+负责机关党委办公室文件整理、资料分发及公众号“南大机关”公众号的运营
 
 
-## Other Activites
+## 社会实习
 
+### 北京鼓舞科技有限公司 产品经理实习生
+2023.06-2023.09
+负责运营需求与技术渲染人员的工作对接，以及公司产品信息文案撰写及整理工作，涉及产品说明、产品品牌文案、应用场景文案、产品广告片文案等的落地
 
-My ebook **Elements of Computational Communication** (In Chinese 《计算传播学网络讲义》）is now available online, enjoy! https://chengjun.github.io/mybook.
+### 山东省淄博市沂源县文化与旅游局 实习编辑
+2024.01-2024.03  
+加入县文旅局记忆沂源编辑部，深入研究当地风土人情、民间传说；加入编辑部采编团队，统筹各方信源，增补、修正当地史传文字；负责校对各村镇上交文字，实习期间校对5万余字
 
-I am organizing the [**Tycho Reading Club**](https://search.bilibili.com/all?keyword=%E7%AC%AC%E8%B0%B7%E8%AF%BB%E4%B9%A6%E4%BC%9A&order=pubdate&duration=0&tids_1=0) to discuss the computational social science every Wendesday at *News Coffee*. You can learn about our future activies by scanning the QR code below or watch the [videos](https://search.bilibili.com/all?keyword=%E7%AC%AC%E8%B0%B7%E8%AF%BB%E4%B9%A6%E4%BC%9A&order=pubdate&duration=0&tids_1=0) of prior activites. 
+### 腾讯科技股份有限公司  内容运营实习生
+2024.06-2024.09  
+负责“腾讯医典”“腾讯医典她知”微信公众号、视频号的原创内容生产和运营，撰写公众号推文、视频号脚本、微信“小绿书”图文，多篇内容单篇阅读量破10万，累计浏览量已达百万＋
 
-![image](https://user-images.githubusercontent.com/543384/147380016-da65a625-6480-47f4-8e27-5034d696f553.png)
+### 小红书科技有限公司  活动组织实习生
+2024.09-2024.12  
+参与小红书组织文化部的BEGIN AGAIN 82小红书日,1024程序员节,年度EXTRA MILE等大型活动的筹备、落地、复盘；完善活动策划，统筹各类活动信息，负责与供应商、嘉宾方、高层的协调沟通
+
+### Vista看天下杂志编辑部  视频剪辑实习生
+2025.06-2025.09  
+负责“Vista看天下”视频号的视频选题、剪辑、发布，每日产出视频3条，在职期间视频号总浏览量破亿级，总推荐量逾10万
+
 
 <br>
-<a href="https://github.com/SocratesClub/SocratesClub.github.io/edit/master/_pages/teaching.md">
   <img src="https://user-images.githubusercontent.com/543384/192227995-fdb3a693-2f68-4dc4-b9bd-06053066322f.png" width = "800" align="middle" />
 </a>
 <br>
+
 
 
