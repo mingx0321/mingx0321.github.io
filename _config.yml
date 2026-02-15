@@ -118,45 +118,40 @@ google_site_verification:  # your google-site-verification ID (Google Search Con
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
-# Blog
+# Blog (已修改：隐藏所有blog相关模块)
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: "" # 关键修改：设为空，隐藏导航栏Blog入口
 blog_description: Building up my personal center of calculation. 
 permalink: /blog/:year/:title/
 
-# Pagination
+# Pagination (关键修改：关闭博客分页)
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false # 关键修改：关闭相关博客推荐
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out
-# the information below.
+# Giscus comments (禁用博客评论，保留配置但不影响显示)
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
+  repo: alshedivat/al-folio      
   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
+  category: Comments             
   category_id: DIC_kwDOA5PmLc4CTBt6
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+  mapping: title                 
+  strict: 1                     
+  reactions_enabled: 1           
+  input_position: bottom         
+  theme: preferred_color_scheme  
   emit_metadata: 0
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+disqus_shortname: "" # 关键修改：设为空，禁用Disqus评论
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+# External sources. (保留配置，无实际影响)
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
@@ -181,7 +176,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false # 关键修改：关闭首页最新博客展示
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -249,11 +244,11 @@ jekyll-minifier:
     harmony: true
 
 # -----------------------------------------------------------------------------
-# Jekyll Archives
+# Jekyll Archives (关键修改：禁用博客归档)
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [] # 设为空数组，禁用年/标签/分类归档
   layouts:
     year: archive-year
     tag: archive-tag
@@ -263,8 +258,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: [] # 关键修改：设为空，不显示博客标签
+display_categories: [] # 关键修改：设为空，不显示博客分类
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
