@@ -42,12 +42,6 @@ nav_order: 3               # 保留原排序位置
 
 --- <!-- 分割线 -->
 
-<!-- 2. 剪辑特长板块（含视频） -->
-## ✂️ 剪辑
-<p style="font-size: 1.1rem; line-height: 1.6;">
-  熟练使用Premiere Pro、剪映等工具，擅长短视频、vlog、纪录片剪辑，风格偏向自然流畅，注重节奏与画面衔接。
-</p>
-
 <!-- 2. 剪辑特长板块（小红书视频：封面+跳转链接） -->
 ## ✂️ 剪辑
 <p style="font-size: 1.1rem; line-height: 1.6;">
@@ -58,7 +52,7 @@ nav_order: 3               # 保留原排序位置
 <div style="margin: 2rem 0; text-align: center;">
   <!-- 小红书视频封面（建议截图视频封面上传，提升美观度） -->
   <a href="http://xhslink.com/o/5tHZZgtsVTZ" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-    <img src="{{ 'assets/img/剪辑/小红书视频封面.jpg' | relative_url }}" alt="小红书剪辑作品封面" 
+    <img src="{{ 'assets/img/小红书剪辑作品封面.jpg' | relative_url }}" alt="小红书剪辑作品封面" 
          style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); cursor: pointer;">
     <!-- 悬浮提示文字 -->
     <div style="margin-top: 1rem; font-size: 1.1rem; color: #ff2442; font-weight: 500;">
