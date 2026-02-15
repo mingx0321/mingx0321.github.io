@@ -35,7 +35,7 @@ nav_order: 3               # 保留原排序位置
   </div>
   <!-- 第二行第二张 -->
   <div style="display: flex; flex-direction: column;">
-    <img src="{{ 'assets/img/摄影4.jpg' | relative_url }}" alt="摄影作品4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <img src="{{ 'assets/img/摄影4.JPG' | relative_url }}" alt="摄影作品4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
     <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">人物摄影 - 幸福</p>
   </div>
 </div>
