@@ -10,45 +10,44 @@ nav_order: 3               # 保留原排序位置
 <!-- 页面主标题 -->
 <h1 style="margin-bottom: 2rem;">Renee的特长</h1>
 
-<!-- 1. 摄影特长板块（4张，严格两两一行） -->
+<!-- 1. 摄影特长板块（强制两列两行） -->
 ## 📷 摄影
 <p style="font-size: 1.1rem; line-height: 1.6;">
   热爱风光、人像摄影，擅长捕捉生活中的细节与氛围感，常用设备为索尼A7M4，擅长后期调色（Lightroom/Photoshop）。
 </p>
 
-<!-- 第一行：摄影1 + 摄影2 -->
-<div class="row" style="margin: 2rem 0 1.5rem 0; gap: 1.5rem; align-items: stretch;">
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/摄影1.jpg' | relative_url }}" alt="摄影作品1" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">风光摄影 - 南京玄武湖</p>
+<!-- 摄影容器：强制两列布局 -->
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+  <!-- 第一行第一张 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/摄影1.jpg' | relative_url }}" alt="摄影作品1" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">风光摄影 - 南京玄武湖</p>
   </div>
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/摄影2.jpg' | relative_url }}" alt="摄影作品2" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">动态摄影 - 游乐园日常</p>
+  <!-- 第一行第二张 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/摄影2.jpg' | relative_url }}" alt="摄影作品2" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">动态摄影 - 游乐园日常</p>
   </div>
-</div>
-
-<!-- 第二行：摄影3 + 摄影4 -->
-<div class="row" style="margin: 0 0 2rem 0; gap: 1.5rem; align-items: stretch;">
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/摄影3.jpg' | relative_url }}" alt="摄影作品3" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">静物摄影 - 天安门</p>
+  <!-- 第二行第一张 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/摄影3.jpg' | relative_url }}" alt="摄影作品3" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">静物摄影 - 天安门</p>
   </div>
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/摄影4.jpg' | relative_url }}" alt="摄影作品4" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">人物摄影 - 幸福</p>
+  <!-- 第二行第二张 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/摄影4.jpg' | relative_url }}" alt="摄影作品4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">人物摄影 - 幸福</p>
   </div>
 </div>
 
 --- <!-- 分割线 -->
 
-<!-- 2. 剪辑特长板块（小红书视频：封面+跳转链接） -->
+<!-- 2. 剪辑特长板块（小红书视频） -->
 ## ✂️ 剪辑
 <p style="font-size: 1.1rem; line-height: 1.6;">
   熟练使用Premiere Pro、剪映等工具，擅长短视频、vlog、纪录片剪辑，风格偏向自然流畅，注重节奏与画面衔接。
 </p>
 
-<!-- 小红书视频展示：封面图+点击跳转链接 -->
 <div style="margin: 2rem 0; text-align: center;">
   <a href="http://xhslink.com/o/5tHZZgtsVTZ" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
     <img src="{{ 'assets/img/小红书剪辑作品封面.jpg' | relative_url }}" alt="小红书剪辑作品封面" 
@@ -62,21 +61,22 @@ nav_order: 3               # 保留原排序位置
 
 --- <!-- 分割线 -->
 
-<!-- 3. 运动特长板块（羽毛球+排球，严格一行两列） -->
+<!-- 3. 运动特长板块（强制两列一行） -->
 ## 🏃 运动（羽毛球/排球）
 <p style="font-size: 1.1rem; line-height: 1.6;">
   长期参与羽毛球、排球运动，羽毛球主打双打（混双/女双），排球司职接应，曾参与校级联赛并获得团体奖项。
 </p>
 
-<div class="row" style="margin: 2rem 0; gap: 1.5rem; align-items: stretch;">
+<!-- 运动容器：强制两列布局 -->
+<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
   <!-- 羽毛球图片 -->
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/运动2.jpg' | relative_url }}" alt="羽毛球" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">羽毛球院赛一等奖</p>
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/运动2.jpg' | relative_url }}" alt="羽毛球" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">羽毛球院赛一等奖</p>
   </div>
   <!-- 排球图片 -->
-  <div class="col-md-6">
-    <img src="{{ 'assets/img/运动1.jpg' | relative_url }}" alt="排球" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
-    <p style="text-align: center; margin-top: 0.5rem; color: #666;">排球校赛荣誉</p>
+  <div style="display: flex; flex-direction: column;">
+    <img src="{{ 'assets/img/运动1.jpg' | relative_url }}" alt="排球" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" loading="lazy">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; margin-bottom: 0;">排球校赛荣誉</p>
   </div>
 </div>
